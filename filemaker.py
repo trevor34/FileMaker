@@ -56,7 +56,7 @@ def head(fpath):
     if start == '':
         x = 0
     else:
-        x = start - 1
+        x = int(start) - 1
     
     leslen = len(les)
     while True:
