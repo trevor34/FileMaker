@@ -12,7 +12,7 @@ def pound(aft):
         pou += '#'
     return pou
 
-name = input("What is your name? ")
+name = raw(input("What is your name? "))
 
 date = strftime('%b %Y')
 
@@ -32,11 +32,11 @@ else:
     print("Dash is -")
     dash = "-"
 
-start = int(input("Start at what number? (Press Enter to start at 1) "))
-    if start == '':
-        x = 0
-    else:
-        x = start - 1
+start = input("Start at what number? (Press Enter to start at 1) ")
+if start == '':
+    x = 0
+else:
+    x = start - 1
 
 leslen = len(les)
 while True:
