@@ -52,7 +52,7 @@ def head(fpath):
         print("Dash is -")
         dash = "-"
 
-    start = int(input("Start at what number? (Press Enter to start at 1) "))
+    start = input("Start at what number? (Press Enter to start at 1) ")
     if start == '':
         x = 0
     else:
